@@ -1,0 +1,20 @@
+body{
+    background-color: #084d6e;
+}
+
+.menu-superior{
+    background-color: antiquewhite;
+}
+
+.menu-superior ul li{
+    background-color: antiquewhite;
+    display: inline;
+    margin: 10px;
+}
+
+.link-vertical{
+    text-decoration: none;
+}
+.link-vertical:visited{
+    color: black;
+}
