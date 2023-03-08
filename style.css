@@ -80,6 +80,27 @@ body{
     background-color: #042838;
     height: 80px;
 }
+#s-inicio h1{
+    margin-left: 30%;
+    box-shadow: 1px 0 0 #f0f0f0;
+    width: 370px;
+    overflow: hidden;
+    color: rgba(240, 248, 255, 0.567);
+    white-space: nowrap;
+    animation: caret .5s step-end infinite alternate,
+    type 2s steps(50, end);
+}
+@keyframes type {
+    0%{
+        width: 0;
+    }
+}
+
+@keyframes caret{
+    50%{
+        box-shadow: .6em 0 0 transparent;
+    }
+}
 
 .experiencia-profissional{
     margin: 20px;
