@@ -36,13 +36,14 @@ body{
 
 .link-vertical{
     text-decoration: none;
+    color: rgba(240, 248, 255, 0.567);
 }
 .link-vertical:visited{
-    color: black;
+    color: rgba(240, 248, 255, 0.567);
 }
 
 .link-vertical:link{
-    color: black;
+    color: rgba(240, 248, 255, 0.567);
 }
 
 .secao{
@@ -74,10 +75,23 @@ body{
     height: 20px;
     margin: 5px;
 }
+
 #s-inicio{
     background-color: #042838;
+    height: 80px;
 }
 
+.experiencia-profissional{
+    margin: 20px;
+    width: 300px;
+}
+.experiencia-profissional img{
+    height: 20px;
+    width: 20px;
+}
+.experiencia-profissional p{
+    margin: 10px;
+}
 #bio{
     margin:auto 26%;
 }
@@ -85,8 +99,34 @@ body{
 #s-experiencia{
     background-color: #042838;
 }
+.projeto-link{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.567);
+}
+.projeto-link :visited{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.567);
+}
+.projeto-link :link{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.567);
+}
+
+.experiencia-projetos{
+    margin: 20px;
+    width: 300px;
+}
+.experiencia-projetos p{
+    margin: 10px;
+}
+
 #s-contato{
     background-color: #042838;
+}
+
+#s-contato img{
+    width: 20px;
+    height: 20px;
 }
 .img-perfil-github{
     border-radius: 10px;
@@ -94,4 +134,7 @@ body{
     margin-right: 7px;
     width: 100px;
     height: 100px;
+}
+footer p{
+    margin: auto 40%;
 }
