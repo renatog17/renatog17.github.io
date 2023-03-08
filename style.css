@@ -1,15 +1,36 @@
+html{
+    align-items:center ;
+}
 body{
     background-color: #084d6e;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .menu-superior{
-    background-color: antiquewhite;
+    height: 20px;
+    padding: 50px;
+    background-color: #042838;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-.menu-superior ul li{
-    background-color: antiquewhite;
+.menu-superior h1{
     display: inline;
-    margin: 10px;
+}
+
+.menu-superior ul{
+    margin-left: 350px;
+    height: 50px;
+    width: 50%;
+    display: inline;
+}
+.menu-superior ul li{
+    display: inline;
+    margin: 20px;
 }
 
 .link-vertical{
@@ -17,4 +38,15 @@ body{
 }
 .link-vertical:visited{
     color: black;
+}
+
+.link-vertical:link{
+    color: black;
+}
+
+#s-inicio{
+    background-color: #042838;
+}
+#s-experiencia{
+    background-color: #042838;
 }
