@@ -44,8 +44,27 @@ body{
     color: black;
 }
 
+.secao{
+    padding: 20px;
+}
+
 #s-inicio{
     background-color: #042838;
+}
+
+
+#s-quem-sou{
+    height: 100px;
+}
+
+#s-quem-sou p{
+    display: block;
+}
+
+.perfil-github{
+    float: left;
+    width: 100px;
+    height: 100px;
 }
 #s-experiencia{
     background-color: #042838;
