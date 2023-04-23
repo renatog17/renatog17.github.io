@@ -1,0 +1,28 @@
+.imagem-com-texto {
+    position: relative;
+    display: inline-block;
+  }
+  
+.imagem-com-texto img{
+    width: 100px;
+}
+  .texto-descritivo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff000067;
+    color: #000;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .imagem-com-texto:hover .texto-descritivo {
+    opacity: 1;
+  }
+  
+  .imagem-com-texto:hover img {
+    opacity: 0;
+  }
+  

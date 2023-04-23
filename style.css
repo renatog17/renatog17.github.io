@@ -17,6 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    border-radius: 7px;
 }
 
 .menu-superior h1{
@@ -134,11 +135,30 @@ body{
 }
 
 .experiencia-projetos{
-    margin: 20px;
-    width: 300px;
+    margin: 10px;
+    padding: 3px;
+    display: inline-block;
+    background-color: #042838;
 }
+.experiencia-projetos img{ 
+    width: 227px;
+}
+
+.texto-descritivo {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+
 .experiencia-projetos p{
     margin: 10px;
+    width: 100px;
 }
 
 #s-contato{
