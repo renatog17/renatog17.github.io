@@ -156,6 +156,11 @@ body{
     transition: opacity 0.3s;
   }
 
+#s-idiomas img{
+    width: 260px;
+    margin: 20px;
+}
+
 .experiencia-projetos p{
     margin: 10px;
     width: 100px;
