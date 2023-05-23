@@ -2,8 +2,9 @@ html{
     align-items:center ;
 }
 body{
-    color: rgba(240, 248, 255, 0.567);
-    background-color: #4d585d;
+    font-family: 'Prompt', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #111a28;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
@@ -12,8 +13,7 @@ body{
 
 .menu-superior{
     height: 20px;
-    padding: 50px;
-    background-color: #042838;
+    padding: 30px;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
@@ -78,29 +78,52 @@ body{
 }
 
 #s-inicio{
-    background-color: #042838;
-    height: 80px;
-}
-#s-inicio h1{
-    margin-left: 30%;
-    box-shadow: 1px 0 0 #f0f0f0;
-    width: 370px;
-    overflow: hidden;
-    color: rgba(240, 248, 255, 0.567);
-    white-space: nowrap;
-    animation: caret .5s step-end infinite alternate,
-    type 2s steps(50, end);
-}
-@keyframes type {
-    0%{
-        width: 0;
-    }
+    height: 600px; 
+    color: rgb(39, 211, 79);
 }
 
-@keyframes caret{
-    50%{
-        box-shadow: .6em 0 0 transparent;
-    }
+.button-introduction{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 3px;
+    
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+#resume{
+    background-color: rgb(39, 211, 79);
+    margin-left: 100px;
+    border: none;
+    color: #fff;
+}
+
+#about-me{
+    background-color: #111a28;
+    border-color: rgb(39, 211, 79);;
+    color: #fff;
+}
+
+#presentation-content{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#presentation-content h1{
+    font-size: 22px;
+}
+
+#presentation-content p{
+    padding-top: 12px;
+    font-size: 22px;
+}
+
+#presentation-content #name{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 80px;
+    color: #fff;
 }
 
 .experiencia-profissional{
@@ -119,7 +142,6 @@ body{
 }
 
 #s-experiencia{
-    background-color: #042838;
 }
 .projeto-link{
     text-decoration: none;
@@ -138,7 +160,6 @@ body{
     margin: 10px;
     padding: 3px;
     display: inline-block;
-    background-color: #042838;
 }
 .experiencia-projetos img{ 
     width: 227px;
@@ -167,7 +188,6 @@ body{
 }
 
 #s-contato{
-    background-color: #042838;
 }
 
 #s-contato img{
