@@ -83,6 +83,12 @@ body{
     height: 40px;
 }
 
+/*start session 'about me'*/
+#s-quem-sou{
+    position: relative;
+    margin-bottom: 400px;
+}
+
 #presentation-content{
 
     padding-top: 250px;
@@ -104,10 +110,6 @@ body{
     font-size: 80px;
     color: #fff;
 }
-/*fim secao inicio*/
-#s-quem-sou{
-    position: relative;
-}
 
 .img-perfil-github{
     position: absolute;
@@ -116,13 +118,24 @@ body{
     left: 300px;
     bottom: 100px;
 }
+
 .bio{
     margin-left: 520px;
-    margin-right: 400px;
+    margin-right: 300px;
     line-height: 25px;
     text-align: justify;
 
 }
+/*end section 'about me'*/
+/*start section projects*/
+#s-projetos{
+
+}
+
+#s-projetos h1{
+    text-align: center;
+}
+/*end section projects*/
 #cards{
     margin: 10 30%;
 }

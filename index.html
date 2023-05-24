@@ -15,6 +15,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&family=Prompt:wght@500&family=Shantell+Sans&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="portfolio/images-portfolio.css" rel="stylesheet">
 </head>
 
 <body>
@@ -97,7 +98,7 @@
             </div>
         </div>
     </section>
-    <section id="s-experiencia" class="secao">
+  <!--  <section id="s-experiencia" class="secao">
         <p>Professional Experiences</p>
         <ul>
             <div id="zup-it" class="experiencia-profissional">
@@ -113,40 +114,31 @@
             </div>
         </ul>
     </section>
+
     <section id="s-idiomas" class="secao">
         <h1>Languages</h1>
         <img src="./imgs/cambly.png">
         <p><a href="http://www.cambly.com/en/certificate/verify/1a571239"> Certificado Cambly</a> </p>
     </section>
+-->
     <section id="s-projetos" class="secao">
-        <h1>Portfolio</h1>
-        <div class="experiencia-projetos">
-            <img src="./imgs/portfolio/todo-list.png">
-            <p> <a class="projeto-link" href="https://todo-list-indol-one.vercel.app/">ToDo List</href>
-            </p>
-        </div>
-        <div class="experiencia-projetos">
-            <img src="./imgs/portfolio/personalpage/personalpage.png">
-            <p> <a class="projeto-link" href="https://renatog17.github.io/">Personal Home Page</href>
-            </p>
-        </div>
-        <div class="experiencia-projetos">
-            <img src="./imgs/portfolio/replicatrelo/inicio.png">
-            <p> <a class="projeto-link" href="https://replica-trello.vercel.app/">Replica Trello</href>
-            </p>
-        </div>
-        <div class="experiencia-projetos">
-            <p><a class="projeto-link" href="https://github.com/tribrary/roteiros"> Roteiro Universitário </a> </p>
-        </div>
-        <div class="experiencia-projetos">
-            <p><a class="projeto-link" href="https://github.com/tribrary/tribrary-first-version"> Troca de Livros </a>
-            </p>
+        <h1 id="portfolio-title">Portfolio</h1>
+        <div id="img-container">
+            <img class="img-project" src="imgs/portfolio/todo-list.png">
+            <p>ToDo List</p>
+            <ul id="tech">
+                <li><img src="imgs/js-icon.png"></li>
+                <li><img src="imgs/css-icon.png"></li>
+                <li><img src="imgs/html-icon.png"></li>
+            </ul>
         </div>
     </section>
     <footer>
         <p>Made with love by Renato - 2023</p>
     </footer>
     <script src="main.js"></script>
+    <script src="portfolio/main-portfolio.js"></script>
+    <script src="portfolio/slider-images.js"></script>
 </body>
 
 </html>

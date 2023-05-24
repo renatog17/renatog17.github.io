@@ -1,0 +1,22 @@
+#img-container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#portfolio-title{
+    font-size: xx-large;
+    margin: 50px;
+}
+.img-project{
+    margin: 20px;
+    height: 300px;
+}
+
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+ul li img{
+    height: 50px;
+}
