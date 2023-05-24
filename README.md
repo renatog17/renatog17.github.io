@@ -4,7 +4,7 @@ Bem-vindo ao meu site pessoal! Este é um projeto desenvolvido com HTML, CSS e J
 
 ## Visão Geral
 
-O objetivo deste site é apresentar de forma clara e organizada os projetos em que trabalhei, destacando minhas habilidades em HTML, CSS e JavaScript. Aqui você encontrará informações sobre mim, meus projetos, experiência e forma de entrar em contato comigo.
+O objetivo deste site é apresentar de forma clara e organizada os projetos em que trabalhei. Aqui você encontrará informações sobre mim, meus projetos, experiência e forma de entrar em contato comigo.
 
 ## Tecnologias Utilizadas
 
