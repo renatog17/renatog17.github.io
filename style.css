@@ -83,6 +83,45 @@ body{
     height: 40px;
 }
 
+#presentation-content{
+
+    padding-top: 250px;
+    padding-left: 100px;
+}
+
+#presentation-content h1{
+    font-size: 22px;
+}
+
+#presentation-content p{
+    padding-top: 12px;
+    font-size: 22px;
+}
+
+#presentation-content #name{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 80px;
+    color: #fff;
+}
+/*fim secao inicio*/
+#s-quem-sou{
+    position: relative;
+}
+
+.img-perfil-github{
+    position: absolute;
+    border-radius: 5px;
+    width: 220px;
+    left: 300px;
+    bottom: 100px;
+}
+.bio{
+    margin-left: 520px;
+    margin-right: 400px;
+    line-height: 25px;
+    text-align: justify;
+}
 #cards{
     margin: 10 30%;
 }
@@ -121,29 +160,6 @@ body{
 }
 
 
-
-
-#presentation-content{
-    padding-top: 100px;
-    padding-left: 100px;
-}
-
-#presentation-content h1{
-    font-size: 22px;
-}
-
-#presentation-content p{
-    padding-top: 12px;
-    font-size: 22px;
-}
-
-#presentation-content #name{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 80px;
-    color: #fff;
-}
-
 .experiencia-profissional{
     margin: 20px;
     width: 300px;
@@ -155,9 +171,7 @@ body{
 .experiencia-profissional p{
     margin: 10px;
 }
-.bio{
-    margin:2% 26%;
-}
+
 
 #s-experiencia{
 }
@@ -212,13 +226,7 @@ body{
     width: 20px;
     height: 20px;
 }
-.img-perfil-github{
-    border-radius: 10px;
-    float: left;
-    margin-right: 7px;
-    width: 100px;
-    height: 100px;
-}
+
 footer p{
     margin: auto 40%;
 }
