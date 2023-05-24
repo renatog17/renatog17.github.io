@@ -121,7 +121,7 @@ body{
     margin-right: 400px;
     line-height: 25px;
     text-align: justify;
-    
+
 }
 #cards{
     margin: 10 30%;
@@ -173,9 +173,6 @@ body{
     margin: 10px;
 }
 
-
-#s-experiencia{
-}
 .projeto-link{
     text-decoration: none;
     color: rgba(240, 248, 255, 0.567);
@@ -218,9 +215,6 @@ body{
 .experiencia-projetos p{
     margin: 10px;
     width: 100px;
-}
-
-#s-contato{
 }
 
 #s-contato img{
