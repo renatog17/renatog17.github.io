@@ -1,6 +1,3 @@
-html{
-    align-items:center ;
-}
 body{
     font-family: 'Prompt', sans-serif;
     color: rgb(255, 255, 255);
@@ -8,14 +5,12 @@ body{
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
 }
 
 .menu-superior{
-    height: 20px;
+    position: relative;
     padding: 30px;
-    justify-content: center;
-    align-items: center;
+    height: 20px;
     margin-bottom: 10px;
     border-radius: 7px;
 }
@@ -25,7 +20,9 @@ body{
 }
 
 .menu-superior ul{
-    margin-left: 320px;
+    position: absolute;
+    bottom: 0;
+    left: 750;
     height: 50px;
     width: 50%;
     display: inline;
@@ -37,19 +34,53 @@ body{
 
 .link-vertical{
     text-decoration: none;
-    color: rgba(240, 248, 255, 0.567);
+    color: rgba(255, 255, 255, 0.67);
 }
 .link-vertical:visited{
-    color: rgba(240, 248, 255, 0.567);
+    color: rgba(255, 255, 255, 0.67);
 }
 
 .link-vertical:link{
-    color: rgba(240, 248, 255, 0.567);
+    color: rgba(255, 255, 255, 0.67);
 }
 
 .secao{
     padding: 20px;
     border-radius: 7px;
+}
+
+#s-inicio{
+    position: relative;
+    height: 630px; 
+    padding-left: 200px;
+    color: rgb(39, 211, 79);
+}
+#btn-resume{
+    background-color: rgb(39, 211, 79);
+    margin-left: 100px;
+    border: none;
+    color: #fff;
+}
+
+#btn-about-me{
+    background-color: #111a28;
+    border-color: rgb(39, 211, 79);;
+    color: #fff;
+}
+
+#side-contact{
+    position: absolute;
+    margin-top: 320px;
+    width: 55px;
+    height: 330px;
+    bottom: 0;
+    left: 100;
+}
+
+#side-contact img{
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 #cards{
@@ -77,10 +108,7 @@ body{
     margin: 5px;
 }
 
-#s-inicio{
-    height: 600px; 
-    color: rgb(39, 211, 79);
-}
+
 
 .button-introduction{
     margin-top: 20px;
@@ -92,18 +120,8 @@ body{
     margin-left: 16px;
 }
 
-#resume{
-    background-color: rgb(39, 211, 79);
-    margin-left: 100px;
-    border: none;
-    color: #fff;
-}
 
-#about-me{
-    background-color: #111a28;
-    border-color: rgb(39, 211, 79);;
-    color: #fff;
-}
+
 
 #presentation-content{
     padding-top: 100px;
