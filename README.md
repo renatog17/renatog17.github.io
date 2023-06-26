@@ -1,10 +1,10 @@
-# Meu Site Pessoal
+# Página Pessoal
 
 Bem-vindo ao meu site pessoal! Este é um projeto desenvolvido com HTML, CSS e JavaScript para mostrar meus portfólios e habilidades de desenvolvimento web.
 
 ## Visão Geral
 
-O objetivo deste site é apresentar de forma clara e organizada os projetos em que trabalhei. Aqui você encontrará informações sobre mim, meus projetos, experiência e forma de entrar em contato comigo.
+O objetivo desta página é apresentar de forma clara e organizada os projetos em que trabalhei. Aqui você encontrará informações sobre mim, meus projetos, experiência e forma de entrar em contato comigo.
 
 ## Tecnologias Utilizadas
 
@@ -12,6 +12,6 @@ O objetivo deste site é apresentar de forma clara e organizada os projetos em q
 - CSS
 - JavaScript
 
-## Acesso ao Site
+## Acesso a página
 
 Você pode acessar o meu site pessoal através do seguinte link: [https://renatog17.github.io/](https://renatog17.github.io/)
