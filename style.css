@@ -8,241 +8,27 @@
 
 body{
     font-family: 'Prompt', sans-serif;
-    color: rgb(255, 255, 255);
-    background-color: #111a28;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: var(--backgroung-color);
 }
 
-.menu-superior{
-    position: relative;
-    padding: 30px;
-    height: 20px;
-    margin-bottom: 10px;
-    border-radius: 7px;
+.navbar{
+    margin: 1em;
 }
 
-.menu-superior h1{
-    display: inline;
+.navbar__list{
+    display: flex;
+    justify-content: flex-end;
 }
 
-.menu-superior ul{
-    position: absolute;
-    bottom: 0;
-    left: 750;
-    height: 50px;
-    width: 50%;
-    display: inline;
-}
-.menu-superior ul li{
-    display: inline;
-    margin: 20px;
+.list__link{
+    margin: 1em 1em;
 }
 
-.link-vertical{
+.list__link:link{
+    color: var(--gray);
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.67);
 }
-.link-vertical:visited{
-    color: rgba(255, 255, 255, 0.67);
-}
-
-.link-vertical:link{
-    color: rgba(255, 255, 255, 0.67);
-}
-
-.secao{
-    padding: 20px;
-    border-radius: 7px;
-}
-
-#s-inicio{
-    position: relative;
-    height: 630px; 
-    padding-left: 200px;
-    color: rgb(39, 211, 79);
-}
-#btn-resume{
-    background-color: rgb(39, 211, 79);
-    margin-left: 100px;
-    border: none;
-    color: #fff;
-}
-
-#btn-about-me{
-    background-color: #111a28;
-    border-color: rgb(39, 211, 79);;
-    color: #fff;
-}
-
-#side-contact{
-    position: absolute;
-    margin-top: 320px;
-    width: 55px;
-    height: 330px;
-    bottom: 0;
-    left: 100;
-}
-
-#side-contact img{
-    margin-top: 30px;
-    width: 40px;
-    height: 40px;
-}
-
-/*start session 'about me'*/
-#s-quem-sou{
-    position: relative;
-    margin-bottom: 400px;
-}
-
-#presentation-content{
-
-    padding-top: 250px;
-    padding-left: 100px;
-}
-
-#presentation-content h1{
-    font-size: 22px;
-}
-
-#presentation-content p{
-    padding-top: 12px;
-    font-size: 22px;
-}
-
-#presentation-content #name{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 80px;
-    color: #fff;
-}
-
-.img-perfil-github{
-    position: absolute;
-    border-radius: 5px;
-    width: 220px;
-    left: 300px;
-    bottom: 100px;
-}
-
-.bio{
-    margin-left: 520px;
-    margin-right: 300px;
-    line-height: 25px;
-    text-align: justify;
-
-}
-/*end section 'about me'*/
-/*start section projects*/
-#s-projetos{
-
-}
-
-#s-projetos h1{
-    text-align: center;
-}
-/*end section projects*/
-#cards{
-    margin: 10 30%;
-}
-
-.card-ferramenta{
-    padding: 5px;
-    text-align: center;
-    width: 35px;
-    height: 35px;
-    display: inline-block;
-    background-color: #042838;
-    border-radius: 18px;
-    transition: background-color;
-}
-
-.card-ferramenta:hover{
-    background-color: #62faff;
-    
-}
-.card-ferramenta img{
-    width: 20px;
-    height: 20px;
-    margin: 5px;
-}
-
-
-
-.button-introduction{
-    margin-top: 20px;
-    width: 150px;
-    height: 50px;
-    border-radius: 3px;
-    
-    font-size: 20px;
-    margin-left: 16px;
-}
-
-
-.experiencia-profissional{
-    margin: 20px;
-    width: 300px;
-}
-.experiencia-profissional img{
-    height: 20px;
-    width: 20px;
-}
-.experiencia-profissional p{
-    margin: 10px;
-}
-
-.projeto-link{
+.list__link:visited{
+    color: var(--gray);
     text-decoration: none;
-    color: rgba(240, 248, 255, 0.567);
-}
-.projeto-link :visited{
-    text-decoration: none;
-    color: rgba(240, 248, 255, 0.567);
-}
-.projeto-link :link{
-    text-decoration: none;
-    color: rgba(240, 248, 255, 0.567);
-}
-
-.experiencia-projetos{
-    margin: 10px;
-    padding: 3px;
-    display: inline-block;
-}
-.experiencia-projetos img{ 
-    width: 227px;
-}
-
-.texto-descritivo {
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px;
-    background-color: #000;
-    color: #fff;
-    opacity: 0;
-    transition: opacity 0.3s;
-  }
-
-#s-idiomas img{
-    width: 250px;
-    margin: 20px;
-}
-
-.experiencia-projetos p{
-    margin: 10px;
-    width: 100px;
-}
-
-#s-contato img{
-    width: 20px;
-    height: 20px;
-}
-
-footer p{
-    margin: auto 40%;
 }
