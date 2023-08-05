@@ -61,3 +61,19 @@ body{
     color: var(--gray);
     text-decoration: none;
 }
+
+.container__button{
+    text-decoration: none;
+    background-color: var(--green);
+    padding: 1em;
+    border-radius: 5px;
+    color: var(--white);
+    width: 10em;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+.secundary__button{
+    background-color: transparent;
+    border: 1px solid var(--green);
+}
