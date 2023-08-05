@@ -32,3 +32,32 @@ body{
     color: var(--gray);
     text-decoration: none;
 }
+.container{
+    height: 100vh;
+    color: var(--green);
+    display: grid;
+    grid-template-columns: 50%;
+}
+.container__box{
+    align-items: center;
+    margin-top: 30em;
+    margin-left: 12em;
+}
+.container__title{
+    font-size: 30px;
+}
+
+.container__name{
+    color: var(--white);
+    font-size: 70px;
+}
+
+.container__link:link{
+    color: var(--gray);
+    text-decoration: none;
+}
+
+.container__link:visited{
+    color: var(--gray);
+    text-decoration: none;
+}
