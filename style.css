@@ -34,6 +34,8 @@ body{
 }
 .container{
     height: 100vh;
+}
+.home{
     color: var(--green);
     display: grid;
     grid-template-columns: 50%;
@@ -77,4 +79,28 @@ body{
 .secundary__button{
     background-color: transparent;
     border: 1px solid var(--green);
+}
+
+.about-me{
+    display: grid;
+    grid-template-columns: 37% 63%;
+}
+
+.container__img{
+    border-radius: 5px;
+    margin-top: 11em;
+    margin-left: 14.9em;
+    width: 300px;
+}
+
+.container__description{
+    color: var(--white);
+    margin-top: 10em;
+    margin-right: 14.9em;
+}
+.container__p{
+    margin-bottom: 1em;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 17px;
 }
