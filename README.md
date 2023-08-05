@@ -1,6 +1,6 @@
 # Página Pessoal
 
-Bem-vindo ao meu site pessoal! Este é um projeto desenvolvido com HTML, CSS e JavaScript para mostrar meus portfólios e habilidades de desenvolvimento web.
+Este é um projeto desenvolvido com HTML, CSS e JavaScript para mostrar meus portfólios e habilidades de desenvolvimento web.
 
 ## Visão Geral
 
