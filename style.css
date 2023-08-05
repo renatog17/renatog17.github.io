@@ -104,3 +104,37 @@ body{
     line-height: 2em;
     font-size: 17px;
 }
+
+.container__project__1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.container__project__2{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.container__img__project__1{
+    margin-top: 11em;
+    margin-left: 14.9em;
+    width: 300px;
+}
+
+.container__description__project__1{
+    color: var(--white);
+    margin-top: 10em;
+    margin-right: 14.9em;
+}
+
+.container__img__project__2{
+    margin-top: 10em;
+    margin-right: 14.9em;
+    width: 300px;
+}
+
+.container__description__project__2{
+    color: var(--white);
+    margin-top: 11em;
+    margin-left: 14.9em;
+}
