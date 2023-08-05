@@ -40,11 +40,12 @@ body{
 }
 .container__box{
     align-items: center;
-    margin-top: 30em;
-    margin-left: 12em;
+    margin-top: 18em;
+    margin-left: 14.9em;
 }
 .container__title{
     font-size: 30px;
+    margin: 20px 0;
 }
 
 .container__name{
