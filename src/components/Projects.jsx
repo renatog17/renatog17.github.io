@@ -19,7 +19,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className="py-20 bg-slate-100 px-6">
+    <section id="projects" className="py-20 bg-slate-100 px-6">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold mb-10 text-center">
           {t("projects.title")}
