@@ -1,25 +1,29 @@
-const projects = [
-  {
-    title: "Método Poliglota",
-    description:
-      "Flashcard app built with Spring Security, Spring Boot, and React.",
-    tech: "Java • Spring Boot • React",
-    link: "https://github.com/renatog17/metodopoliglota-front",
-  },
-  {
-    title: "Appointment",
-    description:
-      "Scheduling system made with full auth, CRUD, and frontend integration.",
-    tech: "Java • Spring Boot • PostgreSQL",
-    link: "https://zendaavip.com.br/",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export default function Projects() {
+  const { t } = useTranslation();
+
+  const projects = [
+    {
+      title: t("projects.items.metodo.title"),
+      description: t("projects.items.metodo.description"),
+      tech: t("projects.items.metodo.tech"),
+      link: "https://github.com/renatog17/metodopoliglota-front",
+    },
+    {
+      title: t("projects.items.appointment.title"),
+      description: t("projects.items.appointment.description"),
+      tech: t("projects.items.appointment.tech"),
+      link: "https://zendaavip.com.br/",
+    },
+  ];
+
   return (
     <section className="py-20 bg-slate-100 px-6">
       <div className="max-w-5xl mx-auto">
-        <h2 className="text-3xl font-bold mb-10 text-center">Projects</h2>
+        <h2 className="text-3xl font-bold mb-10 text-center">
+          {t("projects.title")}
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((p) => (
@@ -36,7 +40,7 @@ export default function Projects() {
                 target="_blank"
                 className="inline-block px-4 py-2 border rounded-lg hover:bg-slate-900 hover:text-white transition"
               >
-                GitHub
+                {t("projects.button")}
               </a>
             </div>
           ))}

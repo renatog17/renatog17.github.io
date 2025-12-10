@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "title": "Renato Oliveira",
+    "subtitle": "Software Developer • React • Spring Boot • PostgreSQL",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  
+  "about": {
+    "title": "About me",
+    "text": "I am a software developer focused on building modern web applications using",
+    "and": "and",
+    "more": "I enjoy learning languages, studying science, and working on personal projects that help me grow as an engineer."
+  },
+
+  "contact": {
+    "title": "Contact",
+    "message": "Feel free to reach out for projects or collaborations.",
+    "email": "Send Email",
+    "whatsapp": "WhatsApp"
+  },
+  "projects": {
+    "title": "Projects",
+    "button": "GitHub",
+    "items": {
+      "metodo": {
+        "title": "Método Poliglota",
+        "description": "Flashcard app built with Spring Security, Spring Boot, and React.",
+        "tech": "Java • Spring Boot • React"
+      },
+      "appointment": {
+        "title": "Appointment",
+        "description": "Scheduling system made with full auth, CRUD, and frontend integration.",
+        "tech": "Java • Spring Boot • PostgreSQL"
+      }
+    }
+  }
+}
